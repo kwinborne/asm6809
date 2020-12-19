@@ -1,0 +1,1 @@
+/usr/bin/f95 -g  -Wl,--enable-auto-import CMakeFiles/asm6809.dir/main.f90.o  -o asm6809.exe -Wl,--out-implib,libasm6809.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

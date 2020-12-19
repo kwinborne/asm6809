@@ -1,0 +1,1 @@
+/usr/bin/f95 -g  -Wl,--enable-auto-import CMakeFiles/assembler.dir/main.f90.o  -o assembler.exe -Wl,--out-implib,libassembler.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

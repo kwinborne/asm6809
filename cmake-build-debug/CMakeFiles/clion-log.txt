@@ -1,0 +1,4 @@
+C:\Users\Kiyle\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug
