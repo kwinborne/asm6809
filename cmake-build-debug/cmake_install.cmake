@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler
+# Install script for directory: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

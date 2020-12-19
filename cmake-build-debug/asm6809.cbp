@@ -8,68 +8,68 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="asm6809">
-				<Option output="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/asm6809.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/asm6809.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gfortran"/>
 				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 asm6809"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 asm6809"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="asm6809/fast">
-				<Option output="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/asm6809.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/asm6809.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gfortran"/>
 				<Compiler/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 asm6809/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 asm6809/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/main.f90">
+		<Unit filename="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/main.f90">
 			<Option target="asm6809"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

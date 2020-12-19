@@ -1,4 +1,11 @@
-C:\Users\Kiyle\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler
+C:\Users\Kiyle\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809
+-- The Fortran compiler identification is GNU 10.2.0
+-- Check for working Fortran compiler: /usr/bin/f95
+-- Check for working Fortran compiler: /usr/bin/f95  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /usr/bin/f95 supports Fortran 90
+-- Checking whether /usr/bin/f95 supports Fortran 90 -- yes
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug
