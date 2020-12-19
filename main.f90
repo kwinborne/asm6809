@@ -22,17 +22,16 @@ program asm6809
     ! Instruction Set arrays Defined Here
     !**************************************
 
-    character :: instruc_5(2) = (/"ANDCC","andcc"/)
-    character(4) :: instruc_4(6) = (/"ORCC","orcc","SYNC","sync","CWAI","cwai"/)
-    character(3) :: instruc_3(106) = (/"ADC","ADD","AND","ASL","LSL","BCC","BHS","BCS","BLO","BEQ","BMI"&
-    ,"BNE","BPL","BRA","BSR","CLR","CMP","DEC","INC","JSR","LSR","PSH","PUL","ROL","ROR","RTS","SUB",&
-    "ASR","BGE","BGT","BHI","BIT","BLE","BLT","COM","DAA","EOR","EXG","JMP","LEA","MUL","NEG","NOP",&
-    "RTI","SWI","TFR","TST","ABX","BRN","BVC","BVS","SBC","SEX","adc","add","and","asl","lsl","bcc","bhs","bcs","blo","beq","bmi"&
-            ,"bne","bpl","bra","bsr","clr","cmp","dec","inc","jsr","lsr","psh","pul","rol","ror","rts","sub",&
-            "asr","bge","bgt","bhi","bit","ble","blt","com","daa","eor","exg","jmp","lea","mul","neg","nop",&
-            "rti","swi","tfr","tst","abx","brn","bvc","bvs","sbc","sex"/)
+    character(5):: instruc(120) =  (/"ADC  " , "ADD  " ,"AND  ","ASL  ","LSL  " ,"BCC  ","BHS  ","BCS  ","BLO  " ,"BEQ  ",&
+    "BMI  ","BNE  ","BPL  " ,"BRA  ","BSR  " , "CLR  " ,"CMP  ","DEC  ","INC  " ,"JSR  ","LSR  ","PSH  ","PUL  " ,"ROL  ",&
+    "ROR  ","RTS  ","SUB  " ,"ASR  ","BGE  " , "BGT  " ,"BHI  ","BIT  ","BLE  " ,"BLT  ","COM  ","DAA  ","EOR  " ,"EXG  ",&
+    "JMP  ","LEA  ","MUL  " ,"NEG  ","NOP  " , "RTI  ","SWI  " ,"TFR  ", "TST  ","ABX  ","BRN  ","BVC  ","BVS  " ,"SBC  ",&
+    "SEX  ","adc  ","add  " ,"and  ","asl  " , "lsl  ","bcc  " ,"bhs  ", "bcs  ","blo  ","beq  ","bmi  ","bne  " ,"bpl  ",&
+    "bra  ","bsr  ","clr  " ,"cmp  ","dec  " , "inc  " ,"jsr  ","lsr  ","psh  " ,"pul  ","rol  ","ror  ","rts  " ,"sub  ",&
+    "asr  ","bge  ","bgt  " ,"bhi  ","bit  " , "ble  " ,"blt  ","com  ","daa  " ,"eor  ","exg  ","jmp  ","lea  " ,"mul  ",&
+    "neg  ","nop  ", "rti  ","swi  ","tfr  " , "tst  " ,"abx  ","brn  ","bvc  " ,"bvs  ","sbc  ","sex  ","ANDCC" ,"andcc",&
+    "ORCC ","orcc ","SYNC " ,"sync ","CWAI " , "cwai " ,"LD   ","ld   ","ST   " ,"st   ","OR   ","or   "/)
 
-    character(2) :: instruc_2(6) = (/"LD","ld","ST","st","OR","or"/)
 
     character(128), allocatable :: input_source(:) ! Array used to manipulate source file.
     integer :: line_count
@@ -55,7 +54,7 @@ program asm6809
 
 
 
-    call preprocessor(input_source, line_count,instruc_3,instruc_2,instruc_4,instruc_5)
+    call preprocessor(input_source, line_count,instruc)
     contains
 
     !***************************************************************************************
@@ -86,35 +85,32 @@ program asm6809
     ! Preprocessor - Handles Syntax checking and assembler directives
     ! ******************************************************************
 
-    subroutine preprocessor(source,file_size,instruc3,instruc2,instruc4,instruc5)
+    subroutine preprocessor(source,file_size,instruction)
     character(128), allocatable, intent(in) :: source(:)
-    character(3), intent(in) :: instruc3(106)
-    character(2), intent(in) :: instruc2(6)
-    character(4), intent(in) :: instruc4(6)
-    character, intent(in) :: instruc5(2)
+    character(5), intent(in) :: instruction(120)
     integer, intent(in) :: file_size
     character(128) :: line_buffer
     integer :: i,j, line_counter=0
     logical :: instruc_found = .false., is_label =.false.
-    do i=1,file_size                        !First preprocessor pass. Syntax check.
+    do i=1,file_size-1                  ! Second preprocessor pass. Syntax check.
         line_buffer = source(i)
         line_counter = i
         if(index(line_buffer,';') == 0)then ! If the current line is a comment, skip it.
+            if(.not.is_label)then
                 do j=1,120
-                    instruc_found = (index(line_buffer, instruc3(j))/= 0 .or. &
-                                     index(line_buffer, instruc2(j))/= 0 .or. &
-                                     index(line_buffer, instruc4(j))/= 0 .or. &
-                                     index(line_buffer, instruc5(j))/= 0)
+                    instruc_found = (index(line_buffer, trim(instruction(j)))/= 0)
                     if(instruc_found)then
                         exit
                     end if
                     if(.not.instruc_found .and. j==120)then
-                        print *, "Syntax error: Instruction not found on line ", line_counter
+                        print '(A, I3)', "Syntax error: Instruction not found on line ", line_counter
+                        print *, "The instruction entered was: " ,trim(line_buffer)
                         call exit
                     end if
                 end do
                 cycle
            end if
+        end if
     end do
     end subroutine preprocessor
     !*******************************************************************
