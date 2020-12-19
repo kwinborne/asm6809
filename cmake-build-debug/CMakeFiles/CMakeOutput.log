@@ -16,7 +16,7 @@ Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccOdf8BE.f90 -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-pc-cygwin/10/finclude -o /tmp/ccKCitnd.s
+ /usr/lib/gcc/x86_64-pc-cygwin/10/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccg8kQ3N.f90 -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-pc-cygwin/10/finclude -o /tmp/cc2SE1TV.s
 GNU Fortran (GCC) version 10.2.0 (x86_64-pc-cygwin)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -39,7 +39,7 @@ GNU Fortran2008 (GCC) version 10.2.0 (x86_64-pc-cygwin)
 warning: MPC header version 1.1.0 differs from library version 1.2.0.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o /tmp/ccBr3jSs.o /tmp/ccKCitnd.s
+ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o /tmp/cc6IALFL.o /tmp/cc2SE1TV.s
 GNU assembler version 2.34.0 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.34.0.20200307
 Reading specs from /usr/lib/gcc/x86_64-pc-cygwin/10/libgfortran.spec
 rename spec lib to liborig
@@ -47,35 +47,35 @@ COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccED2c4C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. /tmp/ccBr3jSs.o -lgfortran -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
+ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccDeMtT1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. /tmp/cc6IALFL.o -lgfortran -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 
 
 Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
 
-The Fortran compiler identification is GNU, found in "/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdFortran/a.exe"
+The Fortran compiler identification is GNU, found in "/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdFortran/a.exe"
 
 Determining if the Fortran compiler works passed with the following output:
-Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make.exe cmTC_5f49a/fast && /usr/bin/make -f CMakeFiles/cmTC_5f49a.dir/build.make CMakeFiles/cmTC_5f49a.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_5f49a.dir/testFortranCompiler.f.o
-/usr/bin/f95    -c /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_5f49a.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_5f49a.exe
-/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5f49a.dir/link.txt --verbose=1
-/usr/bin/f95    -Wl,--enable-auto-import  CMakeFiles/cmTC_5f49a.dir/testFortranCompiler.f.o  -o cmTC_5f49a.exe -Wl,--out-implib,libcmTC_5f49a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make.exe cmTC_48f59/fast && /usr/bin/make -f CMakeFiles/cmTC_48f59.dir/build.make CMakeFiles/cmTC_48f59.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_48f59.dir/testFortranCompiler.f.o
+/usr/bin/f95    -c /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_48f59.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_48f59.exe
+/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_48f59.dir/link.txt --verbose=1
+/usr/bin/f95    -Wl,--enable-auto-import  CMakeFiles/cmTC_48f59.dir/testFortranCompiler.f.o  -o cmTC_48f59.exe -Wl,--out-implib,libcmTC_48f59.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting Fortran compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make.exe cmTC_5f1ed/fast && /usr/bin/make -f CMakeFiles/cmTC_5f1ed.dir/build.make CMakeFiles/cmTC_5f1ed.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o
-/usr/bin/f95   -v -c /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o
+Run Build Command(s):/usr/bin/make.exe cmTC_7cbff/fast && /usr/bin/make -f CMakeFiles/cmTC_7cbff.dir/build.make CMakeFiles/cmTC_7cbff.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/f95   -v -c /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o
 Using built-in specs.
 COLLECT_GCC=/usr/bin/f95
 Target: x86_64-pc-cygwin
@@ -83,8 +83,8 @@ Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --sr
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/f951.exe /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccG0Xo0N.f90 -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-pc-cygwin/10/finclude -o /tmp/cck99GAr.s
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/f951.exe /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccbzLyWH.f90 -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-pc-cygwin/10/finclude -o /tmp/ccRGaLWZ.s
 GNU Fortran (GCC) version 10.2.0 (x86_64-pc-cygwin)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -106,16 +106,16 @@ GNU Fortran2008 (GCC) version 10.2.0 (x86_64-pc-cygwin)
 
 warning: MPC header version 1.1.0 differs from library version 1.2.0.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o /tmp/cck99GAr.s
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o /tmp/ccRGaLWZ.s
 GNU assembler version 2.34.0 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.34.0.20200307
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
-Linking Fortran executable cmTC_5f1ed.exe
-/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5f1ed.dir/link.txt --verbose=1
-/usr/bin/f95    -Wl,--enable-auto-import -v CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o  -o cmTC_5f1ed.exe -Wl,--out-implib,libcmTC_5f1ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-Driving: /usr/bin/f95 -Wl,--enable-auto-import -v CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o -o cmTC_5f1ed.exe -Wl,--out-implib,libcmTC_5f1ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64'
+Linking Fortran executable cmTC_7cbff.exe
+/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7cbff.dir/link.txt --verbose=1
+/usr/bin/f95    -Wl,--enable-auto-import -v CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o  -o cmTC_7cbff.exe -Wl,--out-implib,libcmTC_7cbff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Driving: /usr/bin/f95 -Wl,--enable-auto-import -v CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o -o cmTC_7cbff.exe -Wl,--out-implib,libcmTC_7cbff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc
 Using built-in specs.
 COLLECT_GCC=/usr/bin/f95
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe
@@ -126,13 +126,13 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
 Reading specs from /usr/lib/gcc/x86_64-pc-cygwin/10/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f1ed.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbff.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f1ed.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc0R7rR9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_5f1ed.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o --out-implib libcmTC_5f1ed.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f1ed.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbff.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc8E7qh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_7cbff.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o --out-implib libcmTC_7cbff.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbff.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -153,12 +153,12 @@ Parsed Fortran implicit include dir info from above output: rv=done
 
 Parsed Fortran implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make.exe cmTC_5f1ed/fast && /usr/bin/make -f CMakeFiles/cmTC_5f1ed.dir/build.make CMakeFiles/cmTC_5f1ed.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building Fortran object CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [/usr/bin/f95   -v -c /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Run Build Command(s):/usr/bin/make.exe cmTC_7cbff/fast && /usr/bin/make -f CMakeFiles/cmTC_7cbff.dir/build.make CMakeFiles/cmTC_7cbff.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/f95   -v -c /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/f95]
   ignore line: [Target: x86_64-pc-cygwin]
@@ -166,8 +166,8 @@ Parsed Fortran implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 10.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/f951.exe /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccG0Xo0N.f90 -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-pc-cygwin/10/finclude -o /tmp/cck99GAr.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/f951.exe /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccbzLyWH.f90 -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/share/cmake-3.15.3/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-pc-cygwin/10/finclude -o /tmp/ccRGaLWZ.s]
   ignore line: [GNU Fortran (GCC) version 10.2.0 (x86_64-pc-cygwin)]
   ignore line: [	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP]
   ignore line: []
@@ -189,16 +189,16 @@ Parsed Fortran implicit link information from above output:
   ignore line: []
   ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.0.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o /tmp/cck99GAr.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o /tmp/ccRGaLWZ.s]
   ignore line: [GNU assembler version 2.34.0 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.34.0.20200307]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking Fortran executable cmTC_5f1ed.exe]
-  ignore line: [/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5f1ed.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/f95    -Wl,--enable-auto-import -v CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o  -o cmTC_5f1ed.exe -Wl,--out-implib,libcmTC_5f1ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
-  ignore line: [Driving: /usr/bin/f95 -Wl,--enable-auto-import -v CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o -o cmTC_5f1ed.exe -Wl,--out-implib,libcmTC_5f1ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking Fortran executable cmTC_7cbff.exe]
+  ignore line: [/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7cbff.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/f95    -Wl,--enable-auto-import -v CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o  -o cmTC_7cbff.exe -Wl,--out-implib,libcmTC_7cbff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Driving: /usr/bin/f95 -Wl,--enable-auto-import -v CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o -o cmTC_7cbff.exe -Wl,--out-implib,libcmTC_7cbff.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/f95]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe]
@@ -209,16 +209,16 @@ Parsed Fortran implicit link information from above output:
   ignore line: [gcc version 10.2.0 (GCC) ]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-cygwin/10/libgfortran.spec]
   ignore line: [rename spec lib to liborig]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f1ed.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbff.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5f1ed.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc0R7rR9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_5f1ed.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o --out-implib libcmTC_5f1ed.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cbff.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc8E7qh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_7cbff.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o --out-implib libcmTC_7cbff.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc0R7rR9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8E7qh4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
@@ -255,7 +255,7 @@ Parsed Fortran implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5f1ed.exe] ==> ignore
+    arg [cmTC_7cbff.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10]
@@ -266,9 +266,9 @@ Parsed Fortran implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_5f1ed.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [CMakeFiles/cmTC_7cbff.dir/CMakeFortranCompilerABI.F.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_5f1ed.dll.a] ==> ignore
+    arg [libcmTC_7cbff.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -302,16 +302,16 @@ Parsed Fortran implicit link information from above output:
 
 
 Determining if the Fortran compiler supports Fortran 90 passed with the following output:
-Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make.exe cmTC_289f4/fast && /usr/bin/make -f CMakeFiles/cmTC_289f4.dir/build.make CMakeFiles/cmTC_289f4.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_289f4.dir/testFortranCompilerF90.f90.o
-/usr/bin/f95    -c /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_289f4.dir/testFortranCompilerF90.f90.o
-Linking Fortran executable cmTC_289f4.exe
-/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_289f4.dir/link.txt --verbose=1
-/usr/bin/f95    -Wl,--enable-auto-import  CMakeFiles/cmTC_289f4.dir/testFortranCompilerF90.f90.o  -o cmTC_289f4.exe -Wl,--out-implib,libcmTC_289f4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/assembler/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make.exe cmTC_46ec9/fast && /usr/bin/make -f CMakeFiles/cmTC_46ec9.dir/build.make CMakeFiles/cmTC_46ec9.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_46ec9.dir/testFortranCompilerF90.f90.o
+/usr/bin/f95    -c /cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_46ec9.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_46ec9.exe
+/cygdrive/c/Users/Kiyle/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_46ec9.dir/link.txt --verbose=1
+/usr/bin/f95    -Wl,--enable-auto-import  CMakeFiles/cmTC_46ec9.dir/testFortranCompilerF90.f90.o  -o cmTC_46ec9.exe -Wl,--out-implib,libcmTC_46ec9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+make[1]: Leaving directory '/cygdrive/c/Users/Kiyle/Documents/Source_Code/FORTRAN/Applications/asm6809/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
